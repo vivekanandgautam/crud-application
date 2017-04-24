@@ -11,6 +11,6 @@ public class MySqlDb {
 
 
     public void method(){
-        jdbcTemplate.execute("select * from customer");
+        jdbcTemplate.queryForList("select * from customer");
     }
 }
